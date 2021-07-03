@@ -1,0 +1,186 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    color: white;
+}
+
+header .container{
+        position:fixed;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+}
+
+header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+ header nav a{
+     text-decoration: none;
+     color: #aaa;
+ }
+
+ header nav a:hover{
+    color: #fff;
+ }
+ 
+
+ .main-conteudo{
+     font-size: 16px;
+     background: url(img/CPICOVER-2.jpg);
+
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+ }
+ .inicio{
+     margin-right: 20px;
+ }
+ .series{
+     margin-right: 20px;
+ }
+ .filmes{
+     margin-right: 20px;
+ }
+
+ .litfuc{
+     margin-left: 600px;
+ }
+ .search{
+     margin-right: 20px;
+     font-size: 20px;
+ }
+ .lembrete{
+     font-size: 20px;
+ }
+
+.titulo{
+
+    margin-top: 2%;
+    margin-left: 25px;
+}
+
+.infos{
+    margin-left: 40px;
+    display: flex;
+    font-size: 16px;
+
+    
+}
+
+.classificacao{
+    margin-right: 12px;
+    color: #00FF00;
+}
+.year{
+    margin-right: 12px;
+    color: #A9A9A9	;
+}
+.temp{
+    margin-right: 12px;
+    color: #A9A9A9	;
+
+}
+
+ .descricao{
+     margin-bottom: 30px;
+     margin-top: 27px;
+     margin-left: 35px;
+     margin-inline-end: 60%;
+     font-size: 17px;
+     text-align: justify;
+     
+     }
+
+
+ .botao {
+     background-color: rgba(0,0,0, .50);
+     border: none;
+     color:white;
+
+     padding: 20px;
+     margin-right: 10px;
+     margin-left: 30px;
+     
+
+     cursor: pointer;
+     transition: .3s ease all;
+ }
+ .botao:hover{
+     background-color: white;
+     color: black;
+ }
+
+.botao i{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.assagr{
+    text-decoration: none;
+    color: white;
+    
+}
+.assagr:hover{
+    color: black;
+}
+.infomacoes{
+    text-decoration: none;
+    color: white;
+    
+}
+.infomacoes:hover{
+    color: black;
+}
+
+.main-conteudo .conainer{
+    width: 70%;
+}
+
+.box-img{
+    height: 100%;
+    width: 100%;
+    display: block;    
+}
+
+
+.relacionados{
+    padding-bottom: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+        
+}
+.item{
+    height: 200px;
+    
+}
+
+.seriebio{
+    padding-bottom: 10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+        
+}
